@@ -58,12 +58,17 @@ Request: GET http://localhost:3000/users/1
 
 Response:
 
-{
-  "id": 1,
-  "name": "John Doe",
-  "email": "john@example.com",
-  "dateOfBirth": "1990-01-01"
-}
+  {
+  
+    "id": 1,
+    
+    "name": "John Doe",
+    
+    "email": "john@example.com",
+    
+    "dateOfBirth": "1990-01-01"
+    
+  }
 
 ## 3. POST /users
 
@@ -75,20 +80,29 @@ Content-Type: application/json
 
 Body:
 
-{
-  "name": "Jane Doe",
-  "email": "jane@example.com",
-  "dateOfBirth": "1992-02-02"
-}
+  {
+  
+    "name": "Jane Doe",
+    
+    "email": "jane@example.com",
+    
+    "dateOfBirth": "1992-02-02"
+    
+  }
 
 Response:
 
-{
-  "id": 2,
-  "name": "Jane Doe",
-  "email": "jane@example.com",
-  "dateOfBirth": "1992-02-02"
-}
+  {
+  
+    "id": 2,
+    
+    "name": "Jane Doe",
+    
+    "email": "jane@example.com",
+    
+    "dateOfBirth": "1992-02-02"
+    
+  }
 
 ## 4. PUT /users/
 
@@ -100,20 +114,29 @@ Content-Type: application/json
 
 Body:
 
-{
-  "name": "John Smith",
-  "email": "john.smith@example.com",
-  "dateOfBirth": "1990-01-01"
-}
+  {
+  
+    "name": "John Smith",
+    
+    "email": "john.smith@example.com",
+    
+    "dateOfBirth": "1990-01-01"
+    
+  }
 
 Response:
 
-{
-  "id": 1,
-  "name": "John Smith",
-  "email": "john.smith@example.com",
-  "dateOfBirth": "1990-01-01"
-}
+  {
+  
+    "id": 1,
+    
+    "name": "John Smith",
+    
+    "email": "john.smith@example.com",
+    
+    "dateOfBirth": "1990-01-01"
+    
+  }
 
 ## 5. DELETE /users/
 
