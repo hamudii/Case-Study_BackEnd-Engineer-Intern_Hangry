@@ -1,6 +1,5 @@
 # RESTful API untuk Manajemen Data Pengguna
-Proyek ini adalah implementasi RESTful API untuk mengelola data pengguna menggunakan Node.js. API ini mencakup fitur-fitur CRUD dasar serta beberapa fitur tambahan untuk meningkatkan fungsionalitas dan efisiensi.
-
+Proyek ini adalah implementasi RESTful API menggunakan Node.js dan TypeScript untuk mengelola data pengguna. API ini mencakup fitur-fitur CRUD dasar serta beberapa fitur tambahan untuk meningkatkan fungsionalitas dan efisiensi.
 ## Objectives:
 
 a. Create a RESTful API (CRUD) to manage user data using node.js (typescript for
